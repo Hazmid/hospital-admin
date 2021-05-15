@@ -1,4 +1,6 @@
-### Hospital registration and login page
+## Hospital registration and login page
+
+This project was implemented using React and Redux for the registration and login functionality, with no backend calls.
 
 ## Available Scripts
 
