@@ -9,7 +9,7 @@ import { HomePage } from '../HomePage';
 import { LoginPage } from '../LoginPage';
 import { RegisterPage } from '../RegisterPage';
 
-import reception from "../images/reception.jpg"
+
 
 class App extends React.Component {
     constructor(props) {
@@ -24,7 +24,7 @@ class App extends React.Component {
     render() {
         const { alert } = this.props;
         return (
-            <div className="vh-100 text-black"  style={{ backgroundImage:`url(${reception})` }}>
+            <div className="vh-100 bg-dark text-white" >
                 <div className="container">
                     <div className="col-8 col-sm-offset-2 mx-auto">
                         {alert.message &&
