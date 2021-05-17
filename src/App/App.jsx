@@ -24,7 +24,7 @@ class App extends React.Component {
     render() {
         const { alert } = this.props;
         return (
-            <div className="vh-100 red text-white" >
+            <div className="vh-100 bg-dark text-white" >
                 <div className="container">
                     <div className="col-8 col-sm-offset-2 mx-auto">
                         {alert.message &&
