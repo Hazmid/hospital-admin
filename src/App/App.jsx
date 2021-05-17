@@ -22,7 +22,7 @@ class App extends React.Component {
     render() {
         const { alert } = this.props;
         return (
-            <div className="jumbotron vh-100 text-white"  style={{ backgroundImage: "url(.../reception.jpg)" }}>
+            <div className="jumbotron vh-100 text-white"  style={{ backgroundImage: "url(/reception.jpg)" }}>
                 <div className="container">
                     <div className="col-8 col-sm-offset-2 mx-auto">
                         {alert.message &&
