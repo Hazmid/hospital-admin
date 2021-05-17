@@ -9,7 +9,7 @@ import { HomePage } from '../HomePage';
 import { LoginPage } from '../LoginPage';
 import { RegisterPage } from '../RegisterPage';
 
-import reception from '.../public/reception.jpg'
+import reception from '.../reception.jpg'
 
 class App extends React.Component {
     constructor(props) {
